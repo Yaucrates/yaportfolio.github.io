@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 503 233" width="503" height="233">
+	<title>FrontCloud1</title>
+	<defs>
+		<image  width="504" height="234" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfgAAADqAQMAAAB0j8UYAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAACcklEQVR4nO3ZQXKDMAwF0DJZsMwRfBQfzRzNR/ERsuwiEwqEKaJYtuRPAulYi84w9DW1ZSSVfn3tHZc+FrfxVnsXeBP1j/GW7bu8d1E/yb4PWd7E+SiHlX1nfXz50wa0fZ/fgJbxg7zO25CMK+/Hnc36+PZPn2znbUyGZXz/zIzPecf5Dvbj15DzHB8+GfTTybq92HPHd/jNUT+d7NwDUH31jH/L+X+hlz3/jvPC+pPwrhfUP8t5Yf01DJfWf7T/JLyo/6H9F+3/6PzBJfB5q8t7dP6qUaNGjRrCYBpGKmgd5v7gS0a3eFPiw+JdiSd9sISTDeAHxmT8eq7fS33R9pMEcPNKJjyUPpJA1NsyfzuLd2X+u/rqz+BtmT/N82fK/G71C62/aP1H+w/q0f4L939T4sPiixLoF4/OX9toNN/8Av9nRYJ3DifzbuWzr9z+nbe7+lB99YA/+vx+3vOL+hX/vPrd7Ovf3D81A1UX8UbhY0fDKXxkabr3IdjyYxugm4fDxuvGua03Kr9NgFX57dl2Kr9NIOpVPPL/sIO99nVe9dWfyR/9/MDeqfz+9cuq/Lb+GpXf1n+0/6Ae7b9o/0fnD1UCY6MhOn8tSfDM3Xwc7dvk6qrPxaX6f+D9Yb49hQ8f65/1T//i4yAv+ps10B8dVt5K/NwrHb2YQ8LnXt3QizmEHdPTpXrt8uc1X+nFarezMTV7Qy/mMAn019uItwlE4r5s/zoBLoFIPGiq6OAs41POGnqxkxdPfB09Kt1pvHjg8/So+uqrP4U/+vlB/dH1C66/VubZ+m9knu0/qEf7L9r/0flDlsAH/az1eydg/voBbnlB7ZwikQsAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Layer 1" href="#img1" x="0" y="0" />
+</svg>

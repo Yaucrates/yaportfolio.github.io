@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+:root {
+    --red: rgb(127, 0, 0);
+    --backgroundColor: rgb(0, 153, 255);
+
+    --sunDistX: 0px;
+    --sunDistY: 0px;
+    --cloudDistX: 0px;
+    --cloudDistY: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER */
+
+header {
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px 0px 30px;
+    background-color: var(--backgroundColor);
+}
+
+.logo {
+    z-index: 999;
+    background: transparent;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+
+    transition: color 0.3s linear 0s;
+}
+
+.logo:hover {
+    color: var(--red);
+}
+
+/* LinkedIn + Github */
+
+.github {
+    z-index: 999;
+    background: transparent;
+    position: relative;
+    right: 20px;
+    stroke: white;
+    transition: all 0.3s linear 0s;
+}
+
+.github:hover {
+    stroke: var(--red);
+    transform: translateY(-5px);
+}
+
+.linkedin {
+    z-index: 999;
+    background: transparent;
+    position: relative;
+    right: 10px;
+    stroke: white;
+    transition: all 0.3s linear 0s;
+}
+
+.linkedin:hover {
+    stroke: var(--red);
+    transform: translateY(-5px);
+}
+
+/* Hamburger */
+
+#hamburger {
+    z-index: 999;
+    background: transparent;
+    display: inline-block;
+    position: relative;
+    bottom: 9px;
+    height: 20px;
+    width: 59px;
+    cursor: pointer;
+}
+
+#hamburger::after {
+    background: white;  
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    height: 4px;
+    width: 59px;
+    border-radius: 90px;
+
+    transition: background 0.3s linear 0s, transform 0.3s linear 0s;
+}
+
+#hamburger::before {
+    background: white;  
+    content: '';
+    position: absolute;
+    top: 0px;
+    height: 4px;
+    width: 59px;
+    border-radius: 90px;
+
+    transition: background 0.3s linear 0s, transform 0.3s linear 0s;
+}
+
+#hamburger:hover::after, #hamburger:hover::before {
+    background: var(--red);
+}
+
+.hamburgerToggle::after {
+    transform: rotate(-45deg) translateY(-10px);
+}
+
+.hamburgerToggle::before {
+    transform: rotate(45deg) translateY(10px);
+}
+
+/* Mobile Navigation Menu */
+
+#navBar {
+    z-index: 10;
+    background: linear-gradient(rgb(86, 209, 168), rgb(48, 131, 255));
+    min-height: 220vh;
+    min-width: 100%;
+
+    position: absolute;
+    bottom: 100%;
+
+    transition: all 1s ease 0s;
+}
+
+.navBarToggle {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    transform: translateY(110vh);
+    
+    background: linear-gradient(rgb(86, 209, 168), rgb(48, 131, 255));
+}
+
+#navItems {
+    z-index: 11;
+    
+    list-style-type: none;
+    width: 470px;
+    height: 100px;
+
+    position: absolute;
+    left: 40%;
+    bottom: 150%;
+
+    transition: all 1s ease 0s;
+    cursor: pointer;
+}
+
+#navItems li {
+    padding: 15px 0px 15px 0px;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+
+    transition: all 1s ease 0s;
+}
+
+#navItems a {
+    text-decoration: none;
+}
+
+.navItemsToggle {
+    display: flex;
+    flex-direction: column;
+
+    transform: translateY(75vh);
+    z-index: 11;
+
+    transition: all 1s ease 0s;
+}
+
+#navItems li:hover {
+    color: var(--red);
+    transform: translateY(-5px);
+}
+
+/* Background */
+
+body {
+    background-color: var(--backgroundColor);
+}
+
+body:nth-child(2) {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.backClouds {
+    z-index: 0;
+    background: transparent;
+    background-image: url(./background/backcloud.png);
+    background-repeat: no-repeat;
+    background-size: 42%;
+    height: 999px;
+    width: 999px;
+
+    position: absolute;
+    left: calc(51% + var(--cloudDistX));
+    bottom: calc(-24% + var(--cloudDistY));
+    
+    pointer-events: none;
+}
+
+.sun {
+    z-index: 1;
+    background: transparent;
+    background-image: url(./background/fullSun.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 999px;
+    width: 999px;
+
+    position: absolute;
+    left: calc(47% + var(--sunDistX));
+    bottom: calc(0% + var(--sunDistY));
+
+    pointer-events:none;
+}
+
+.frontClouds {
+    z-index: 2;
+    background: transparent;
+    background-image: url(./background/frontClouds.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 999px;
+    width: 999px;
+
+    position: absolute;
+    left: calc(47% + var(--cloudDistX));
+    bottom: calc(-43% + var(--cloudDistY));
+    
+    pointer-events:none;
+}
+
+.firstName {
+    z-index: 3;
+    background: transparent;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: black;
+
+    position: absolute;
+    top: 40%;
+    left: 13%;
+}
+
+.lines {
+    z-index: 3;
+    background: var(--red);
+
+    height: 6px;
+    width: 180px;
+    border-radius: 170px;
+
+    position: absolute;
+    top: 43.5%;
+    left: calc(13% + 190px);
+}
+
+.lines::after {
+    content: '';
+    z-index: 3;
+    background: var(--red);
+
+    height: 6px;
+    width: 180px;
+    border-radius: 170px;
+
+    position: absolute;
+    top: -16px;
+}
+
+.lines::before {
+    content: '';
+    z-index: 3;
+    background: var(--red);
+
+    height: 6px;
+    width: 180px;
+    border-radius: 170px;
+
+    position: absolute;
+    top: 16px;
+}
+
+.lastName {
+    z-index: 3;
+    background: transparent;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: black;
+
+    position: absolute;
+    top: 45%;
+    left: 13%;
+}
+
+.typeOut{
+    background: transparent;
+    overflow: hidden;
+    border-right: .15em solid var(--red);
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+.title {
+    z-index: 3;
+    display: inline-block;
+    background: transparent;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: var(--red);
+
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { 
+        width: 0;
+    }
+    to { 
+        width: 100%; 
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: var(--red);
+    }
+}

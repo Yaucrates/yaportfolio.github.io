@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 489 267" width="489" height="267">
+	<title>FrontCloud2</title>
+	<defs>
+		<image  width="489" height="267" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAekAAAELAQMAAADHjOxdAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAACoklEQVR4nO3bSW7CQBAFUBALLzlCH6WP1j6aj+IjsGSB4oQhgi738Mvf8RBVbSIhnqCnqnKjHA65aIYo+uwb0+FjflPyQYROnyTvVLyRvFfxs+RXFXcc95Lrpj5I/qXiUitXjuPHMW93w0d7VrdrjRtfnu/6xK2brNhM6yXX5Xkn+aJFiqywZH0nuwu5crp1ozsrC4tCJJJiMvo0HzWvmchkGw/yzJFDdfrAo0PPDD5RCzORTHajnKbj6MRnpt7BPJmuPMyTK0fygPN2cxzXyV1r3PjyPOC83Rz3OE9oljtYJzMtmefJKkNyssKS9Z3tLhyoMw092Vml42M7aNjsXPsQ84hmz/z0P7j2Zn0D/DgX3/XCkXzSeSd5MxtvJ/Dzqty9ebcPfnruMLBsjY6ie34S2q+0gofhcv/jQd7H+vj6QqCW3crpebzgdkUM/r5RD5oLgZjfp6zV9Fpy4h+LjDeK8dT74TGbDuZdinuYxysXfl650DzA/BLx+yvXtTms41372Kw348ZVnNx1Kx+ZMFDn/cU9zPuI+4HKdS/uYN5F3A1UnierzKvGTeVkhSXrO9ld/PY2DuSd4GRnJUP0GbW3z8yPc3L1Qw3JDxvi+odZ48ZZvvSJmzVdsD8DJweBl7Tf6D65U/OoJwlqHm0AtY4Gj9/Pv6N9c/yBN8n1Ex9NPd4IvaNn1i1aOZL7Cfy6FR4m8Jtx42tyP4Fv5sS5CXy+ZEVmWjLPk1WG5GSFZeu7U/Oou9CvXP/Jyc7KwsLCov6c0RV5NYuV/5vAc1mrnvVaZujlwQPV61LgQOktcaB8lKbe1XnpNsPXeWnlSB7qvHSbsS4HdGnXGje+PA8Az+uVua/rP0xWrs5LmZbM82SVITlZYcn6znYXrsbL9/1IZ/UNuclisHVSnckAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Layer 1" href="#img1" x="0" y="0" />
+</svg>
